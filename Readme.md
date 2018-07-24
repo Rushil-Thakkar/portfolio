@@ -1,4 +1,4 @@
-- Created simple and responsive website which represents my portfolio.
+### Created simple and responsive website which represents my portfolio.
 - I have used Media quaries and breakpoints to make the website responsive to all the screes.
 - It has responsice images and links that are handeled by CSS3.
 - Provided extra effects to make it look better by Javascript.
