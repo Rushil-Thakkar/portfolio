@@ -1,0 +1,79 @@
+
+@media screen and (min-width: 850px) {
+  main, .header, .content {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero{
+    height: 400px;
+  }
+  .header_name{
+    font-size: 300%;
+    width: 95%;
+  }
+  .header_coding_name{
+    font-size: 150%;
+    width: 97%;
+  }
+  .header__logo img{
+    /* width: 100%; */
+    height: 65px;
+  }
+   .first_project,.second_project,.third_project{
+    width: 33%;
+    min-width: 120px;
+  }
+  .first_image > img,.second_image > img,.third_image > img{
+    width: 100%;
+    height: 165px;
+  }
+}
+
+@media screen and (min-width: 550px){
+  .first_project,.second_project,.third_project{
+   width: 33%;
+   min-width: 120px;
+ }
+  .description{
+    visibility: visible;
+  }
+  .first_image > img,.second_image > img,.third_image > img{
+    width: 100%;
+    height: 125px;
+  }
+  .first_image ,.second_image ,.third_image {
+    padding: 13px;
+    padding-bottom: 0;
+    padding-top: 5px;
+  }
+  .first_description,.second_description,.Third_description{
+    font-size: 1.5em;
+  }
+  .work{
+    padding-left: 13px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 700px){
+  .hero{
+    height: 300px;
+  }
+  .first_image > img,.second_image > img,.third_image > img{
+    width: 100%;
+    height: 145px;
+  }
+  .first_image ,.second_image ,.third_image {
+    padding: 18px;
+    padding-bottom: 0;
+    padding-top: 5px;
+  }
+  .first_description,.second_description,.Third_description{
+    font-size: 1.8em;
+  }
+  .work{
+    padding-left: 18px;
+    font-size: 18px;
+  }
+}
